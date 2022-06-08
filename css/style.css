@@ -39,7 +39,27 @@ html{
     background-color: chocolate;
 }
 
+.debug .s4{
+    height: 200px;
+    background-color: purple;
+}
 
+
+.debug .s4{
+    height: 300px;
+    background-color: purple;
+    border: 1px solid black;
+}
+
+.debug .operations .operations-fi{
+    background-color: coral;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.debug .free-trial{
+    height: 300px;
+}
 
 
 
@@ -184,4 +204,88 @@ section{
     padding: 10px;
 }
 
+/* section 4 */
+.dropbox-partner{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.s4{
+    width: calc(100% / 2);
+}
+
+/* section 5 */
+
+.op-cnt h2{
+    margin-top: 130px;
+}
+
+.operations{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+}
+
+.operations-fi{
+    width: calc(100% / 3);
+}
+
+.sect-6{
+   margin-top: 30px;
+   padding: 20px 0;
+}
+
+/* companies section */
+
+.companies{
+    display: flex;
+    width: 100%;
+}
+
+.company{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 150px;
+}
+
+.square{
+    width: 286px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.green{
+    background-color: green;
+}
+
+.informations{
+    background-color: lightgray;
+}
+
+/* free-trial sect */
+
+.free-trial{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* FAQ section */
+
+.faq{
+    margin-top: 150px;
+}
+
+.faq h2{
+    margin-bottom: 40px;
+}
+
+.questions{
+    padding: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
