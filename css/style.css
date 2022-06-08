@@ -11,25 +11,32 @@ html{
 
 /* inizio debug */
 
-
-
-
-.title{
+.debug .title{
     width: 900px;
     height: 200px;
     background-color: #000;
 }
 
-.info{
+.debug .info{
     width: 300px;
     height: 500px;
     background-color: red;
 }
 
-.img-cnt{
+.debug .img-cnt{
     width: 600px;
     height: 500px;
     background-color: aqua;
+}
+
+.debug .sub{
+    height: 700px;
+    background-color: cyan;
+}
+
+.debug .phone-number{
+    height: 200px;
+    background-color: chocolate;
 }
 
 
@@ -117,5 +124,64 @@ header{
     right: 20%;
 }
 
+section{
+    width: 60%;
+    margin: auto;
+}
+
+/* section 1 */
+
+.sub-info{
+    margin-top: 8%;
+}
+
+.sub-info h2{
+    font-size: 30px;
+}
+
+.sub-info h5{
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+.radio-btn{
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/* section 2 */
+
+.sub-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub{
+    width: calc(90% / 3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+}
+
+.sub h5{
+    text-align: center;
+    padding: 10px;
+}
+
+/* section 3 */
+
+.phone-number{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.phone-number h5{
+    text-align: center;
+    padding: 10px;
+}
 
 
