@@ -11,28 +11,23 @@ html{
 
 /* inizio debug */
 
-.debug .title{
+/* .debug .title{
     width: 900px;
     height: 200px;
     background-color: #000;
-}
+} */
 
-.debug .info{
-    width: 300px;
-    height: 500px;
-    background-color: red;
-}
 
-.debug .img-cnt{
+/* .debug .img-cnt{
     width: 600px;
     height: 500px;
     background-color: aqua;
-}
+} */
 
-.debug .sub{
+/* .debug .sub{
     height: 700px;
     background-color: cyan;
-}
+} */
 
 .debug .phone-number{
     height: 200px;
@@ -93,6 +88,11 @@ header{
 .left-menu a{
     text-decoration: none;
     color: #000;
+    padding: 28px 0;
+}
+
+.left-menu a:hover{
+    border-bottom: 4px solid lightgreen;
 }
 
 .right-menu *{
@@ -103,19 +103,24 @@ header{
 .right-menu a{
     text-decoration: none;
     color: #000;
+    padding: 34px 0;
+}
+
+.right-menu a:hover{
+    border-bottom: 4px solid lightgreen;
 }
 
 .btn{
     background-color: rgb(0, 81, 255);
     color: #fff;
-    padding: 7px 12px;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     transition: all 0.5s;
 }
 
 .btn:hover{
-    background-color: rgb(0, 140, 255);
+    background-color: rgb(60, 167, 255);
 }
 
 /* fine header */
@@ -123,7 +128,7 @@ header{
 /* inizio main */
 
 .jumbotron{
-    background-color: aquamarine;
+    background-color: rgb(127, 182, 255);
     padding-top: 10vh;
     position: relative;
     height: 90vh;
@@ -131,19 +136,38 @@ header{
 
 .title{
     position: absolute;
+    top: 20%;
     left: 30%;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .info{
     position: absolute;
     left: 30%;
-    top: 40%;
+    top: 48%;
+    max-width: 300px;
+}
+
+.info *{
+    margin-bottom: 50px;
+}
+
+.info i{
+    text-decoration: none;
+    color: #000;
+    font-size: 3rem;
 }
 
 .img-cnt{
     position: absolute;
-    top: 45%;
-    right: 20%;
+    top: 48%;
+    right: 8%;
+}
+
+.img-cnt img{
+    max-width: 900px;
+    max-height: 550px;
 }
 
 section{
@@ -153,15 +177,16 @@ section{
 
 /* section 1 */
 
-.sub-info{
+#sub-info{
     margin-top: 8%;
+    height: 10vh;
 }
 
-.sub-info h2{
+#sub-info h2{
     font-size: 30px;
 }
 
-.sub-info h5{
+#sub-info h5{
     display: inline-block;
     margin: 20px 15px;
 }
@@ -179,6 +204,7 @@ section{
 .sub-cnt{
     display: flex;
     justify-content: space-between;
+    height: 80vh;
 }
 
 .sub{
@@ -188,9 +214,31 @@ section{
     border: 1px solid lightgray;
 }
 
+.sub hr{
+    color: lightgray;
+}
+
 .sub h5{
     text-align: center;
     padding: 10px;
+}
+
+.subscription-name *{
+    text-indent: 20px;
+    margin-top: 5px;
+}
+
+.subscription-name h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.subscription-info{
+    margin-top: 30px;
+}
+
+.subscription-info *{
+    text-indent: 20px;
 }
 
 /* section 3 */
