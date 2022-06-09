@@ -142,10 +142,16 @@ section{
 .radio-btn{
     width: 1rem;
     height: 1rem;
-    background-color: blue;
+    background-color: #fff;
+    border: 1px solid lightgrey;
     display: inline-block;
     border-radius: 50%;
+    transition: all 0.3s ease 0.1s;
+    color: #fff;
+    cursor: pointer;
 }
+
+
 
 /* section 2 */
 
@@ -408,6 +414,10 @@ section{
     height: 300px;
 }
 
+.free-trial > h2{
+    color: rgb(66, 5, 66);
+}
+
 /* FAQ section */
 
 .faq{
@@ -419,9 +429,18 @@ section{
 }
 
 .questions{
-    padding: 30px;
+    padding: 25px;
     font-weight: bold;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 0.5s ease 0.1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.questions:hover{
+    height: 200px;
 }
 
 /* footer */
@@ -446,7 +465,8 @@ footer{
 .footer-list *{
     color: #fff;
     list-style: none;
-    margin-top: 8px;
+    margin-top: 15px;
+    text-decoration: none;
 }
 
 .footer-list ul li:last-child{
