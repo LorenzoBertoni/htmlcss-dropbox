@@ -9,6 +9,7 @@ html{
 }
 
 
+
 /* inizio debug */
 
 /* .debug .title{
@@ -29,22 +30,22 @@ html{
     background-color: cyan;
 } */
 
-.debug .phone-number{
+/* .debug .phone-number{
     height: 200px;
     background-color: chocolate;
-}
+} */
 
-.debug .s4{
+/* .debug .fi{
     height: 200px;
     background-color: purple;
 }
 
 
-.debug .s4{
+.debug .fi{
     height: 300px;
     background-color: purple;
     border: 1px solid black;
-}
+} */
 
 .debug .operations .operations-fi{
     background-color: coral;
@@ -83,6 +84,10 @@ header{
 .left-menu *{
     margin-right: 15px;
     margin-left: 10px;
+}
+
+.left-menu img{
+    cursor: pointer;
 }
 
 .left-menu a{
@@ -204,7 +209,7 @@ section{
 .sub-cnt{
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    height: 100vh;
 }
 
 .sub{
@@ -221,6 +226,7 @@ section{
 .sub h5{
     text-align: center;
     padding: 10px;
+    display: inline-block;
 }
 
 .subscription-name *{
@@ -234,11 +240,44 @@ section{
 }
 
 .subscription-info{
-    margin-top: 30px;
+    width: 70%;
+    margin: auto;
 }
 
 .subscription-info *{
-    text-indent: 20px;
+    margin-top: 15px;
+}
+
+.subscription-info hr{
+    width: 30%;
+}
+
+.subscription-info div > i{
+    color: rgb(0, 81, 255);
+}
+
+.trial *{
+    margin: 10px 0;
+}
+
+.specs{
+    margin-top: 50px;
+}
+
+.specs *{
+    margin-bottom: 10px;
+}
+
+.pro .specs{
+    margin-bottom: 230px;
+}
+
+.enterprise .specs{
+    margin-bottom: 230px;
+}
+
+.large{
+    width: 100%;
 }
 
 /* section 3 */
@@ -247,11 +286,30 @@ section{
     margin-top: 30px;
     display: flex;
     flex-direction: column; 
+    border: 1px solid lightgray;
 }
 
 .phone-number h5{
     text-align: center;
     padding: 10px;
+}
+
+.fc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.phone-number .fi h2, .fi h4{
+    margin-top: 10px;
+}
+
+.phone-number .fi h4{
+    margin-bottom: 50px;
+}
+
+.phone-number .fi button{
+    margin-top: 10px;
 }
 
 /* section 4 */
@@ -261,8 +319,33 @@ section{
     justify-content: space-between;
 }
 
-.s4{
-    width: calc(100% / 2);
+.bigger{
+    width: 60%;
+}
+
+.smaller{
+    width: 40%;
+}
+
+.bigger img{
+    width: 100%;
+    height: 100%;
+}
+
+.smaller *{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-white:hover{
+    box-shadow: 5px 2px #000;
+    background-color: lightgray;
 }
 
 /* section 5 */
@@ -297,11 +380,13 @@ section{
     display: flex;
     flex-flow: row wrap;
     margin-top: 150px;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
 
 .square{
-    width: 287px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     border: 1px solid black;
 }
 
@@ -311,6 +396,7 @@ section{
 
 .informations{
     background-color: lightgray;
+    overflow: hidden;
 }
 
 /* free-trial sect */
