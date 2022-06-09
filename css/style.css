@@ -151,14 +151,11 @@ section{
     cursor: pointer;
 }
 
-
-
 /* section 2 */
 
 .sub-cnt{
     display: flex;
     justify-content: space-between;
-    height: 110vh;
 }
 
 .sub{
@@ -174,7 +171,7 @@ section{
 
 .sub h5{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
 }
 
@@ -218,11 +215,11 @@ section{
 }
 
 .pro .specs{
-    margin-bottom: 230px;
+    margin-bottom: 250px;
 }
 
 .enterprise .specs{
-    margin-bottom: 230px;
+    margin-bottom: 200px;
 }
 
 .large{
@@ -440,7 +437,7 @@ section{
 }
 
 .questions:hover{
-    height: 200px;
+    height: 150px;
 }
 
 /* footer */
